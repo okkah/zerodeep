@@ -1,3 +1,5 @@
+#sinの描画
+
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,3 +1,5 @@
+#sincosの描画 #pyplotの機能
+
 import numpy as np
 import matplotlib.pyplot as plt
 
