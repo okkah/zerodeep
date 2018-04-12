@@ -29,7 +29,7 @@ def forward(network, x):    #入力信号が出力へと変換されるプロセ
 def sigmoid(x):     #活性化関数h()（シグモイド関数）
     return 1 / (1 + np.exp(-x))
 
-def identify_function(x):       #活性化関数σ()（出力層） 
+def identify_function(x):       #活性化関数σ()（恒等関数） 
     return x
 
 network = init_network()
